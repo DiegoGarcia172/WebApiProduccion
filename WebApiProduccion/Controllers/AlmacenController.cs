@@ -10,7 +10,6 @@ namespace WebApiProduccion.Controllers
     public class AlmacenController : Controller
     {
         private readonly ProduccionDbContext _context;
-
         public AlmacenController(ProduccionDbContext context)
         {
             _context = context;

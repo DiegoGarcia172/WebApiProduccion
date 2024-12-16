@@ -20,5 +20,6 @@ namespace WebApiProduccion.Data
         public DbSet<MateriaPrima> MateriaPrima { get; set; }
         public DbSet<Proceso> Proceso { get; set; }
         public DbSet<Inventario> Inventario { get; set; }
+        public DbSet<Usuario> Usuario { get; set; }
     }
 }
